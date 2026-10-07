@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!backend/.env.example
+!frontend/.env.example
+
+# Build & runtime artifacts
+dist/
+dist-ssr/
+build/
+dump.rdb
+*.log
+
+# OS & Editor files
+.DS_Store
+.DS_Store?
+._*
+.vscode/
+.idea/
+.agents/

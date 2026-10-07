@@ -1,0 +1,10 @@
+- [x] Implement backend routes for rooms list, search student, assign student, and remove student in `backend/src/routes/warden.js`
+- [x] Add breadcrumbs and drill-down state variables in `frontend/src/App.jsx`
+- [x] Modify `frontend/src/components/WardenDashboard.jsx` to make building cards clickable
+- [x] Implement Level 1 building detail room grouping by floor inside `frontend/src/components/WardenDashboard.jsx`
+- [x] Implement Level 2 room seat map and Level 3 bed override controls (student search, assign, and remove) inside `frontend/src/components/WardenDashboard.jsx`
+- [x] Verify that frontend compilation succeeds and both servers run correctly
+- [x] Add executive stats summary row, subtitle, and CSS bar graph in WardenDashboard.jsx
+- [x] Enable 30%-70% randomized occupancy allocations in seed.js using 300 dummy students
+- [x] Restore Bennett University crest logo in App.jsx header
+- [x] Create pdfkit-based backend /export-pdf executive summary report endpoint in routes/warden.js
